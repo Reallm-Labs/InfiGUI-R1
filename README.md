@@ -5,9 +5,9 @@ InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative
 </h1>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2504.14239"><img src="https://img.shields.io/badge/📚%20Arxiv-B22222?style=for-the-badge" alt="Arxiv Paper"></a>
-  <a href="https://huggingface.co/papers/2504.14239"><img src="https://img.shields.io/badge/🤗%20Paper-FFD700?style=for-the-badge&logoColor=black" alt="Hugging Face Paper"></a>
-  <a href="https://huggingface.co/Reallm-Labs/InfiGUI-R1-3B"><img src="https://img.shields.io/badge/🤗%20Model-6495ED?style=for-the-badge" alt="Hugging Face Model"></a>
+  <a href="https://arxiv.org/abs/2504.14239"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?style=flat&logo=arxiv&logoColor=white" alt="arXiv Paper"></a>
+  <a href="https://huggingface.co/papers/2504.14239"><img src="https://img.shields.io/badge/🤗%20HuggingFace-Daily%20Papers-ff9800?style=flat" alt="Hugging Face Paper"></a>
+  <a href="https://huggingface.co/Reallm-Labs/InfiGUI-R1-3B"><img src="https://img.shields.io/badge/🤗%20HuggingFace-Models-ff9800?style=flat" alt="Hugging Face Model"></a>
 </p>
 
 <br>
@@ -45,7 +45,7 @@ In this work, we develop **InfiGUI-R1**, a multimodal large language model-based
 
 ### ScreenSpot Results
 
-On the cross-platform [ScreenSpot](https://github.com/njucckevin/SeeClick) benchmark, InfiGUI-R1 achieves an average accuracy of **87.5%**. It leads across text and icon localization tasks on Mobile, Desktop, and Web platforms, reaching the state-of-the-art level for models of similar parameter size (as of 2025/04/19):
+On the cross-platform [ScreenSpot](https://github.com/njucckevin/SeeClick) benchmark, InfiGUI-R1-3B achieves an average accuracy of **87.5%**. It leads across text and icon localization tasks on Mobile, Desktop, and Web platforms, reaching the state-of-the-art level for models of similar parameter size (as of 2025/04/19):
 
 <div align="center">
 <table border="1">
@@ -121,7 +121,7 @@ On the more challenging [ScreenSpot-Pro](https://github.com/likaixin2000/ScreenS
 
 ### AndroidControl Results
 
-On the [AndroidControl](https://github.com/google-research/google-research/tree/master/android_control), which involves diverse Android trajectory tasks (with Low and High difficulty levels), InfiGUI-R1 achieves success rates on its test split of **92.1%** and **71.1%**, respectively. This reaches the state-of-the-art level for models of similar parameter size (as of 2025/04/19).
+On the [AndroidControl](https://github.com/google-research/google-research/tree/master/android_control), which involves diverse Android trajectory tasks (with Low and High difficulty levels), InfiGUI-R1-3B achieves success rates on its test split of **92.1%** and **71.1%**, respectively. This reaches the state-of-the-art level for models of similar parameter size (as of 2025/04/19).
 
 <div align="center">
 <table border="1">
