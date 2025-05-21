@@ -38,6 +38,7 @@ In this work, we develop **InfiGUI-R1**, a multimodal large language model-based
 
 ## 🚀 Updates
 
+- ***`2025/05/21`*** Added [AndroidControl evaluation](#-evaluation) methods and uploaded the [corresponding test data](https://huggingface.co/datasets/Reallm-Labs/android_control_test).
 - ***`2025/04/20`*** [Model weights](https://huggingface.co/Reallm-Labs/InfiGUI-R1-3B) have been uploaded to Hugging Face.
 - ***`2025/04/19`*** [Our preprint](https://arxiv.org/abs/2504.14239) has been published on arXiv.
 
