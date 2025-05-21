@@ -145,6 +145,34 @@ On the [AndroidControl](https://github.com/google-research/google-research/tree/
 </table>
 </div>
 
+## 🧪 Evaluation
+
+### AndroidControl
+
+To reproduce the results on AndroidControl:
+
+1.  Install the `vllm` library:
+    ```bash
+    pip install vllm
+    ```
+2.  Navigate to the evaluation directory ([`eval/android_control`](https://github.com/Reallm-Labs/InfiGUI-R1/tree/main/eval/android_control)):
+    ```bash
+    cd eval/android_control
+    ```
+3.  Download the processed test set from Hugging Face ([`Reallm-Labs/android_control_test`](https://huggingface.co/datasets/Reallm-Labs/android_control_test)):
+    ```bash
+    huggingface-cli download --repo-type dataset --resume-download Reallm-Labs/android_control_test --local-dir ./
+    ```
+4.  Extract the downloaded data:
+    ```bash
+    tar -xzf android_control_test.tar.gz
+    ```
+5.  Run the evaluation scripts for high and low difficulty tasks:
+    ```bash
+    python android_control.py --model_path Reallm-Labs/InfiGUI-R1-3B --eval_type high --thinking
+    python android_control.py --model_path Reallm-Labs/InfiGUI-R1-3B --eval_type low --thinking
+    ```
+
 ## 📚 Citation Information
 
 If you find this work useful, citations to the following papers are welcome:
