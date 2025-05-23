@@ -30,10 +30,10 @@ In this work, we develop **InfiGUI-R1**, a multimodal large language model-based
 </div>
 
 ## 🔥 News
-
+- 🔥 ***`2025/05/15`*** Our paper "[OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use](https://os-agent-survey.github.io/)" is accepted by *ACL 2025*.
 - 🔥 ***`2025/4/19`*** Our paper "[InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners](https://arxiv.org/abs/2504.14239)" released.
 - 🔥 ***`2025/1/9`*** Our paper "[InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection](https://arxiv.org/abs/2501.04575)" released.
-- 🔥 ***`2024/12/12`*** Our paper "[OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use](https://os-agent-survey.github.io/)" released.
+- 🔥 ***`2024/12/12`*** Our paper "[OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use](https://os-agent-survey.github.io/)" released.
 - ***`2024/4/2`*** Our paper "[InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks](https://infiagent.github.io/)" is accepted by *ICML 2024*.
 
 ## 🚀 Updates
